@@ -42,11 +42,10 @@ python ngram_models.py --data data-nobatch.h5 --ngram <x>
 ```
 Please substitute `<x>` with your desired n-gram number. In our case, we tried 1~5.  
 
-## Results
+## Table of results
 
-![Alt text](https://drive.google.com/file/d/1zGlxiaxQgqN4YMsvX6vn3t8zY6t42ZjL/view?usp=sharing)
-
-![Bilby Stampede](https://www.google.com/url?sa=i&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F62617348%2Fhow-to-insert-image-from-url-in-jupyter-notebook-markdown&psig=AOvVaw1x8zR1WxI5xiGggtx17D-j&ust=1683429887104000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIi0nZXf3_4CFQAAAAAdAAAAABAE)
-
-
-
+![alt text](https://github.com/chenyuzhao98/CS-598/blob/main/table1.jpg?raw=true)
+![alt text](https://github.com/chenyuzhao98/CS-598/blob/main/table2.jpg?raw=true)
+![alt text](https://github.com/chenyuzhao98/CS-598/blob/main/table3.jpg?raw=true)
+![alt text](https://github.com/chenyuzhao98/CS-598/blob/main/accuracy.png?raw=true)
+![alt text](https://github.com/chenyuzhao98/CS-598/blob/main/f1.png?raw=true)
