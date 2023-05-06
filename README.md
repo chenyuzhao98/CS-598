@@ -23,12 +23,12 @@ $ pip install -r requirements.txt
 
 ## Data Acquisition 
 
-In `data/annotations.csv`, you can find our annotations as well as unique identifiers for patient visits in MIMIC-III, namely the hospital admission ID, subject ID, and chart time. Due to HIPAA requirements, we cannot provide the text of the patients' discharge summary in this repository.  
+In `data/annotations_wo_text.csv`, you can find our annotations as well as unique identifiers for patient visits in MIMIC-III, namely the hospital admission ID, subject ID, and chart time. Due to HIPAA requirements, we cannot provide the text of the patients' discharge summary in this repository.  
 
 You can find the discharge summary from the MIMIC-III `NOTEEVENTS` table, which can be accessed at https://mimic.mit.edu/docs/iii/tables/noteevents/. Please take note that legitimate PhysioNet credential is needed to download the dataset. 
 
 ## Prepocessing
-1. Once you accquired the MIMIC-III `NOTEEVENTS` table, you need to combine `NOTEEVENTS`'s  discharge summary with the provided `data/annotations.csv` dataset. You can refer to `598_Project.ipynb` for detailed implementation on merging the two datasets.
+1. Once you accquired the MIMIC-III `NOTEEVENTS` table, you need to combine `NOTEEVENTS`'s  discharge summary with the provided `data/annotations_wo_text.csv` dataset. You can refer to `598_Project.ipynb` for detailed implementation on merging the two datasets. The resulting dataset is stored at `data/annotations.csv`
 2. Prepare a word2vec file on the extracted texts. You can find our pre-made word2vec vectors in `data/w2v.txt.zip`. Please unzip the file first before proceeding.
 3. You would need to perform text prepocessing on the dataset (string split, remove stop words and punctuations, string vectorization, etc). This can be done by running the following command with `Python 2.7`:
  ```
