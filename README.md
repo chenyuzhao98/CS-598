@@ -42,14 +42,11 @@ python ngram_models.py --data data-nobatch.h5 --ngram <x>
 ```
 Please substitute `<x>` with your desired n-gram number. In our case, we tried 1~5.  
 
-## SmartyPants
+## Results
 
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
+![Alt text](https://drive.google.com/file/d/1zGlxiaxQgqN4YMsvX6vn3t8zY6t42ZjL/view?usp=sharing)
 
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+![Bilby Stampede](https://www.google.com/url?sa=i&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F62617348%2Fhow-to-insert-image-from-url-in-jupyter-notebook-markdown&psig=AOvVaw1x8zR1WxI5xiGggtx17D-j&ust=1683429887104000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIi0nZXf3_4CFQAAAAAdAAAAABAE)
+
 
 
