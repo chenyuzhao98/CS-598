@@ -1,5 +1,7 @@
 # CS 598 Final Project
 
+> Update: Deleted data/annotations.csv, which contains small parts of MIMIC data
+
 ## Team Information
 - Group ID: 112
 - Paper ID: 163
